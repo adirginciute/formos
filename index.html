@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Skundo forma</title>
+  </head>
+  <body>
+    <h1>Kliento skundo forma</h1>
+   <form class="" action="submited.html" method="get">
+
+<label for="fname">Vardas</label>
+<input id="fname" type="text" name="VARDAS" placeholder="Vardas" required>
+<label for="lname">Pavardė</label>
+
+<input id="lname" type="text" name="PAVARDĖ" placeholder="Pavardė" required>
+<br>
+<br>
+<label for="email">El. Paštas</label>
+<input id="email" type="email" name="El. Paštas" placeholder="El. Paštas" minlength="8" required>
+<label for="tel">Tel. numeris</label>
+<input id="tel" type="tel" name="Tel. numeris" placeholder="Tel. numeris" required>
+<br>
+<br>
+<select name="Parduotuvės pasirinkimas">
+<option value="#" hidden>Parduotuvės pasirinkimas</option>
+  <option value="Maxima">Maxima</option>
+  <option value="Iki">Iki</option>
+  <option value="Rimi">Rimi</option>
+  <option value="Lidl">Lidl</option>
+  <option value="Norfa">Norfa</option>
+  <option value="Šilas">Šilas</option>
+   </select>
+<br>
+<br>
+<label for="date">Apsilankymo laikas</label>
+<input type="date" id="date" name="Apsilankymo laikas">
+<br>
+<p>Nusiskundimo tipas:</p>
+<input id="radio" type="radio" name="Bloga prekė" value="bloga preke">
+<label for="radio">Bloga prekė</label><br>
+<input id="radio" type="radio" name="Aptarnavimas" value="aptarnavimas">
+<label for="radio">Blogas aptarnavimas</label><br>
+<input id="radio" type="radio" name="Blogas pristatymas" value="blogas pristatymas">
+<label for="radio">Blogas pristatymas</label><br>
+<input id="radio" type="radio" name="Kiti nusiskundimai" value="kiti nusiskundimai">
+<label for="radio">Kiti nusiskundimai</label>
+<br>
+<br>
+<label for="myfile">Pasirinkite nuotrauką:</label>
+<input type="file" id="myfile" name="myfile"><br><br>
+<input type="checkbox" id="agreement" name="sutikimas" value="politika" required>
+  <label for="agnreement">Perskaičiau ir sutinku su <a href="#">privatumo politika.</a> </label><br>
+   <br>
+   <button type="submit" name="button">
+   <span>Siųsti</span>
+   </button>
+   </form>
+  </body>
+</html>
